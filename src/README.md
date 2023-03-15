@@ -1,4 +1,4 @@
-# filterNPP - Box Filter with NPP
+# filterNPP - Box and Gauss Border Controlled Filters with NPP
 
 ## Description
 
