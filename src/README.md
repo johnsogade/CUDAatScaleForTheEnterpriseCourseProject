@@ -2,7 +2,7 @@
 
 ## Description
 
-A NPP CUDA Sample that demonstrates how to use NPP functions to perform a Box and Gauss Filter with border control.
+A NPP CUDA Sample that demonstrates how to use NPP functions to perform Box and Gauss Filtering with border control.
 
 ## Key Concepts
 
