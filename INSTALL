@@ -1,0 +1,13 @@
+The project in its current form requires a Coursera Lab environment to execute since this already provides the CUDA environment and no 
+other configuration will be needed. The Cuda specs are CUDA Driver, CUDA Runtime, NPP Library are versions 11.7, 11.3,and 11.3.3 respectively.
+
+However, to configure for Unix/Linux environment, the following steps are recommended (after repo is cloned):
+
+(a) Install the Nvidia CUDA toolkit using the appropriate package manager
+(b) Ensure that the "Common" folder and its contents from the Nvidia Cuda Samples is placed in the root folder of the project (same location where 'src/' and 
+'data/' are located. This folder can be seen here for example: "https://github.com/NVIDIA/cuda-samples/tree/master/Common".
+(c) Run the bash script "build.sh" to build the project executable.
+(d) Run the bash script "Run.sh" for a test run (ensure the test images are in 'data/').
+
+
+Porting this project to the Windows platform shouldn’t be too difficult but is outside the current scope of work.
